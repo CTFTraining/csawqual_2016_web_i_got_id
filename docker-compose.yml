@@ -1,0 +1,7 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: ctftraining/csaw_2016_web_i_got_id
+    ports:
+      - "6656:80"
