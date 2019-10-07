@@ -3,7 +3,7 @@
 ## 题目详情
 
 - CSAW Quals 2016 CTF:Web I Got ID
-- Difficulty: Easy
+- Difficulty: Medium
 
 ## 考点
 - Perl
