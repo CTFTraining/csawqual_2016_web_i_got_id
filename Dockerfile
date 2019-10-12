@@ -11,4 +11,4 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
     mv /var/www/localhost/cgi-bin/index.html /var/www/localhost/htdocs &&\
     chmod +x /var/www/localhost/cgi-bin/* 
 EXPOSE 80
-CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+CMD echo $FLAG > /flag && export FLAG=not_flag && FLAG=not_flag && /usr/sbin/httpd -D FOREGROUND
